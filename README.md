@@ -28,11 +28,11 @@ open /path/to/Claude/claude_desktop_config.json
 ```json
 {
   "mcpServers": {
-    "mcp-jp-postal-code": {
+    "yubin-mcp": {
       "command": "python",
       "args": [
         "-m",
-        "mcp_jp_postal_code.server"
+        "yubin_mcp.server"
       ],
       "env": {},
       "transport": "stdio"
