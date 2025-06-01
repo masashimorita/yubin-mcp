@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yubin_mcp"
-version = "0.0.1"
+version = "0.0.2"
 description = "MCP server that retrieves addresses and map links from Japanese postal codes and latitude/longitude coordinates"
 authors = ["masashimorita"]
 license = "MIT"

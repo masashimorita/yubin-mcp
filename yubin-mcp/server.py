@@ -43,6 +43,10 @@ def get_address_from_coordinates(latitude: float, longitude: float) -> dict:
     except Exception as e:
         return {"error": str(e)}
 
+
+def main():
+    mcp.run(transport="stdio")
+
 # Start server
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    main()
