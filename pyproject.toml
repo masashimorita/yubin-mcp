@@ -18,6 +18,7 @@ mcp = {extras = ["cli"], version = "^1.9.2"}
 
 [tool.poetry.group.dev.dependencies]
 build = "^1.2.2.post1"
+twine = "^6.1.0"
 
 [build-system]
 requires = ["setuptools", "wheel"]

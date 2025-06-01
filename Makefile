@@ -8,3 +8,6 @@ run-dev:
 
 run:
 	source ./.venv/bin/activate && mcp run yubin-mcp/server.py
+
+publish:
+	source ./.venv/bin/activate && twine upload dist/*
