@@ -5,5 +5,5 @@ MCP server that retrieves addresses and map links from Japanese postal codes and
 ## Installation
 
 ```bash
-pip install yubin-mcp
+pip install yubin_mcp
 ```

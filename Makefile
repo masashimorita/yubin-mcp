@@ -1,5 +1,8 @@
 .PHONY: build install sh run down
 
+install:
+	poetry install --no-root
+
 build:
 	source ./.venv/bin/activate && python -m build
 
