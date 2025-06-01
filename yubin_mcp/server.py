@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
 # Create MCP server instance
-mcp = FastMCP("mcp-jp-postal-code")
+mcp = FastMCP("yubin-mcp")
 
 # Tool to get address and map link from postal code
 @mcp.tool()
@@ -30,7 +30,7 @@ def get_address_from_coordinates(latitude: float, longitude: float) -> dict:
     Get address and map link from coordinates.
     """
     try:
-        geolocator = Nominatim(user_agent="mcp_jp_postal_code")
+        geolocator = Nominatim(user_agent="yubin-mcp")
         location = geolocator.reverse((latitude, longitude), timeout=10)
         if location:
             address = location.address
